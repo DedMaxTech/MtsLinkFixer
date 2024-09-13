@@ -16,6 +16,7 @@
             button.click();
             console.log('Activity button clicked');
         }
-        document.querySelector('.WatermarkLogo__text___zmRdC').textContent = 'Платформа 9¾'
+        let watermark = document.querySelector('.WatermarkLogo__text___zmRdC');
+        if (watermark) watermark.textContent = 'Платформа 9¾'
     }, 5000);
 })();
