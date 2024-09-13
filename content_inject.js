@@ -1,6 +1,6 @@
 (function() {
     console.log('Hello from mts fixer');
-
+    
     var originalFetch = window.fetch;
     window.fetch = function(req, init) {
         if (req.includes('/setUserInvolvementStatus')) {
@@ -16,5 +16,6 @@
             button.click();
             console.log('Activity button clicked');
         }
+        document.querySelector('.WatermarkLogo__text___zmRdC').textContent = 'Платформа 9¾'
     }, 5000);
 })();
