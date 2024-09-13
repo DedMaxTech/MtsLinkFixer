@@ -4,6 +4,8 @@
 
 ## Установка
 
-* Открываем chrome://extensions/
+* Скачиваем файл из [релизов](https://github.com/DedMaxTech/MtsLinkExtention/releases)
+* Открываем [chrome://extensions/](chrome://extensions/)
 * Включаем режим разработчкика справа вверху
-* Перекидываем файл из релизов
+* Перекидываем скаченый файл
+* Спим до следующей пары
