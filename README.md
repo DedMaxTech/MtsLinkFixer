@@ -5,7 +5,7 @@
 ## Установка
 
 * Скачиваем файл из [релизов](https://github.com/DedMaxTech/MtsLinkExtention/releases)
-* Открываем [chrome://extensions/](chrome://extensions/)
+* Ввести в строке браузера `chrome://extensions/`
 * Включаем режим разработчкика справа вверху
 * Перекидываем скаченый файл
 * Спим до следующей пары
