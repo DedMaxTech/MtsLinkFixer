@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "MTS Link fixer",
+  "version": "0.1",
+  "description": "Автоматически наживает кнопку для отмети и сайт будет всегда будет думать что вы смотрите трансляцию",
+  "content_scripts": [
+    {
+      "world": "MAIN",
+      "run_at": "document_start",
+      "js": ["content_inject.js"],
+      "matches": ["https://*.mts-link.ru/*"]
+    }
+  ],
+  "icons": {
+    "16": "images/icon-16.jpg",
+    "32": "images/icon-32.jpg",
+    "48": "images/icon-48.jpg",
+    "128": "images/icon-128.jpg"
+  }
+}
